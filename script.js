@@ -43,11 +43,11 @@ while (mascotas != "salir") {
             break;
     }
     mascotas = prompt("Ingrese mascota (perro,gato,loro,tortuga, etc.. 😍)");
-} 
+}  */
 
 //Simulador 
 
-/ let nombrePaceinte = prompt("Ingrese nombre del paciente");
+ /* let nombrePaceinte = prompt("Ingrese nombre del paciente");
 let apellidoPaciente = prompt("Ingrese apellido del paciente")
 
 while (nombrePaceinte != "salir") {
@@ -63,7 +63,7 @@ while (nombrePaceinte != "salir") {
 
     nombrePaceinte = prompt("Ingrese nombre del paciente");
     apellidoPaciente = prompt("Ingrese apellido del paciente")
-} 
+}  */
 
 
 
