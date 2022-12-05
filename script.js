@@ -1,7 +1,7 @@
 //Condicional
 //Notas de alumnos
 
-let notas = parseInt(prompt("Ingrese una nota"));
+ let notas = parseInt(prompt("Ingrese una nota"));
 
 if( notas <= 4){
     alert("Volver a hacer el examen en diciembre 😭");
@@ -18,11 +18,11 @@ else if( notas <= 10){
 else{
     alert("Ingrese una nota del 1 al 10 😩")
 }  
-
+ 
 //Ciclos
 //Nombre de mascotas
 
-/* let mascotas = prompt("Ingrese mascota (perro,gato,loro,tortuga, etc.. 😍)");
+ let mascotas = prompt("Ingrese mascota (perro,gato,loro,tortuga, etc.. 😍)");
 
 while (mascotas != "salir") {
     switch (mascotas) {
@@ -43,11 +43,11 @@ while (mascotas != "salir") {
             break;
     }
     mascotas = prompt("Ingrese mascota (perro,gato,loro,tortuga, etc.. 😍)");
-}  */
+}  
 
 //Simulador 
 
- /* let nombrePaceinte = prompt("Ingrese nombre del paciente");
+let nombrePaceinte = prompt("Ingrese nombre del paciente");
 let apellidoPaciente = prompt("Ingrese apellido del paciente")
 
 while (nombrePaceinte != "salir") {
@@ -63,7 +63,7 @@ while (nombrePaceinte != "salir") {
 
     nombrePaceinte = prompt("Ingrese nombre del paciente");
     apellidoPaciente = prompt("Ingrese apellido del paciente")
-}  */
+}  
 
 
 
