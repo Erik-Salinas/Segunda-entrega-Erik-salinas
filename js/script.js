@@ -1,4 +1,4 @@
-//Condicional
+/* //Condicional
 //Notas de alumnos
 
  let notas = parseInt(prompt("Ingrese una nota"));
@@ -72,3 +72,4 @@ while (nombrePaceinte != "salir") {
 
 
 
+ */
