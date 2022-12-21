@@ -44,7 +44,7 @@ let continuar = true;
 
 
 while (continuar) {
-    let info = prompt('Ingrese especie,genero y edad de su mascota.Separado por una barra diagonal (/) Ej: Pajaro/Hembra/1 (X para salir)')
+    let info = prompt('Ingrese especie,genero,edad y nombre de su mascota.Separado por una barra diagonal (/) Ej: Pajaro/Hembra/1 (X para salir)')
 
     if (info.toUpperCase()) {
         alert('Informacion Guardada 😎\n\n' + info);
