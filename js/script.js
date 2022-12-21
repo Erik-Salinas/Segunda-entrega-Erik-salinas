@@ -62,13 +62,13 @@ while (continuar) {
 }
 
 
-let criterio = prompt('Elegí una opción:\n1 - Mascotas (A a Z) \n2 - Mascotas (Z a A)\n3 - Mascotas (Mejor a peor especie)\n 4 - Fecha de publicación (Más viejo a más nuevo) ');
+let informacion = prompt('Elegí una opción:\n1 - Mascotas (A a Z) \n2 - Mascotas (Z a A)\n3 - Mascotas (Mejor a peor especie)\n 4 - Fecha de publicación (Más viejo a más nuevo) ');
 
 
-function ordenar(criterio, array) {
+function ordenar(informacion, array) {
     let arrayOrdenado = array.slice(0); //slice (COPIA)
 
-    switch (criterio) {
+    switch (informacion) {
         case '1':
             let nombreAscendente = arrayOrdenado.sort((a, b) => a.especie.localeCompare(b.especie));
             return nombreAscendente; //Mostramos resultado, 
@@ -82,7 +82,7 @@ function ordenar(criterio, array) {
         default:
             alert('No es un criterio válido 🤨');
     }
-    criterio = prompt('Elegí una opción:\n1 - Mascotas (A a Z) \n2 - Mascotas (Z a A)\n3 - Mascotas (Mejor a peor especie)\n 4 - Fecha de publicación (Más viejo a más nuevo) ');
+    informacion = prompt('Elegí una opción:\n1 - Mascotas (A a Z) \n2 - Mascotas (Z a A)\n3 - Mascotas (Mejor a peor especie)\n 4 - Fecha de publicación (Más viejo a más nuevo) ');
 }
 
 
@@ -99,6 +99,6 @@ function crearStringResultado(array) {
 
 
 
-alert(crearStringResultado(ordenar(criterio, nombres)))
+alert(crearStringResultado(ordenar(informacion, nombres)))
 
 
